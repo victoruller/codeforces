@@ -1,0 +1,10 @@
+[package]
+name = "codeforces"
+version = "0.1.0"
+edition = "2024"
+
+[toolchain]
+channel = "1.89.0"
+
+
+[dependencies]

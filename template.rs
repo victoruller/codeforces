@@ -1,6 +1,6 @@
 /*
-cp template.rs src/bin/cf2275e.rs; New-Item -Name "inputs/cf2275f.txt"
-cargo run --release --bin xxxx < inputs/xxxx.txt
+cp template.rs src/bin/cf2276b.rs; New-Item -Name "inputs/cf2276b.txt"
+type | cargo run --release --bin xxxx < inputs/xxxx.txt > examples\out
 */
 
 use std::io::{self, Read, Write};
@@ -32,7 +32,7 @@ fn main() {
     }
 
 
-    let t: usize = next().parse().unwrap();
+    let t: usize = rin!();
 
     for _ in 0..t {
 
